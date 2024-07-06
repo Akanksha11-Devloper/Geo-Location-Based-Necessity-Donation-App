@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".LoginSignup.Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_background"
+            android:padding="15dp"
+            android:src="@drawable/add"
+            tools:ignore="ContentDescription" />
+
+
+
+
+
+        <Button
+            android:id="@+id/loginDonar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="Donar Register"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/registerNgo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="NGO Register"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/not_register"
+            android:textColor="@color/black"
+            android:fontFamily="@font/opensans"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+</LinearLayout>
+
